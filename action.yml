@@ -6,6 +6,10 @@ inputs:
     required: true
     default: ''
     description: 'Platform that the build should target.'
+  pushLibraryCache:
+    description: 'Push Library cache after build'
+    required: false
+    default: 'true'
   unityVersion:
     required: false
     default: 'auto'
